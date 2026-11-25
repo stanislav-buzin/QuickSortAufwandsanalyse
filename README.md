@@ -17,9 +17,9 @@ Stanislav Buzin
 
 **Benutzerhinweise:**  
 Die Methode `analysiereAufwand(int stellen, int modus)` fordert zwei ganzzahlige Parameter:  
-`stellen`: Anzahl der Elemente des zu sortierenden Arrays (z. B. 5, 10 oder 100; muss >= 1 sein).
-`modus`: Art der Ausgangsbelegung des Arrays:
- `0` = aufsteigend sortiertes Array `{1, 2, ..., n}`
+`stellen`: Anzahl der Elemente des zu sortierenden Arrays (z. B. 5, 10 oder 100; muss >= 1 sein).  
+`modus`: Art der Ausgangsbelegung des Arrays:  
+ `0` = aufsteigend sortiertes Array `{1, 2, ..., n}`  
  `1` = absteigend sortiertes Array `{n, ..., 2, 1}`
 
 In der Konsole werden anschließend das aufsteigend sortierte Ergebnis-Array  
