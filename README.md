@@ -11,13 +11,8 @@ Analyse des Laufzeitverhaltens (Anzahl der Vergleiche und Tauschoperationen) des
 **Autor:**
 Stanislav Buzin
 
-**Wie ist das Projekt zu starten (Variante A):**
+**Wie ist das Projekt zu starten:**
 Über Konsole / Standard-IDE wie VS Code, IntelliJ oder Eclipse starten (`main`-Methode).
-
-**Wie ist das Projekt zu starten (Variante B):**
-1 - Das Projekt in BlueJ über die obere Menüleiste ("Projekt" -> "Projekt öffnen...") öffnen.
-2 - Über Rechtsklick auf die Klasse `QuickSortAufwandsanalyse` und über Linksklick auf `new QuickSortAufwandsanalyse()` eine neue Instanz erzeugen.
-3 - Über Rechtsklick auf das erzeugte Objekt die Methode `void analysiereAufwand(int stellen, int modus)` aufrufen.
 
 **Benutzerhinweise:**
 Die Methode `analysiereAufwand(int stellen, int modus)` fordert zwei ganzzahlige Parameter:
