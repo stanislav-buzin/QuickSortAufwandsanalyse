@@ -2,23 +2,25 @@
 
 # QuickSortAufwandsanalyse
 
-**Projektzweck:**
-Analyse des Laufzeitverhaltens (Anzahl der Vergleiche und Tauschoperationen) des Quick-Sort-Algorithmus mit linker Pivot-Wahl bei auf- und absteigend vorsortierten Datenmengen (Worst-Case-Betrachtung) mit regulierbarer Array-Größe.
+**Projektzweck:**  
+Analyse des Laufzeitverhaltens (Anzahl der Vergleiche und Tauschoperationen) des Quick-Sort-Algorithmus mit linker Pivot-Wahl  
+bei auf- und absteigend vorsortierten Datenmengen (Worst-Case-Betrachtung) mit regulierbarer Array-Größe.
 
-**Version und Datum:**
+**Version und Datum:**  
 1.0 (25.11.2026)
 
-**Autor:**
+**Autor:**  
 Stanislav Buzin
 
-**Wie ist das Projekt zu starten:**
+**Wie ist das Projekt zu starten:**  
 Über Konsole / Standard-IDE wie VS Code, IntelliJ oder Eclipse starten (`main`-Methode).
 
-**Benutzerhinweise:**
-Die Methode `analysiereAufwand(int stellen, int modus)` fordert zwei ganzzahlige Parameter:
+**Benutzerhinweise:**  
+Die Methode `analysiereAufwand(int stellen, int modus)` fordert zwei ganzzahlige Parameter:  
 `stellen`: Anzahl der Elemente des zu sortierenden Arrays (z. B. 5, 10 oder 100; muss >= 1 sein).
 `modus`: Art der Ausgangsbelegung des Arrays:
  `0` = aufsteigend sortiertes Array `{1, 2, ..., n}`
  `1` = absteigend sortiertes Array `{n, ..., 2, 1}`
 
-In der Konsole werden anschließend das aufsteigend sortierte Ergebnis-Array sowie die Gesamtanzahl der durchgeführten Vergleiche und Tausche ausgegeben.
+In der Konsole werden anschließend das aufsteigend sortierte Ergebnis-Array  
+sowie die Gesamtanzahl der durchgeführten Vergleiche und Tausche ausgegeben.
